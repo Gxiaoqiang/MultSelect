@@ -1,0 +1,217 @@
+.multSelectList .hint-input-span-container {
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	display: inline-block;
+	padding: 2px 2px;
+	color: #555;
+	vertical-align: middle;
+	border-radius: 1px;
+	max-width: 100%;
+	line-height: 0px;
+	margin: 0;
+	height: 100%;
+	font: inherit;
+}
+
+.multSelectList .hint-input-span-container .tag {
+	font-family: serif;;
+	margin-right: 1px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	display: inline-block;
+	float: left;
+}
+
+.multSelectList .label {
+	font-size: 11px;
+	padding-left: 2px;
+	border: none;
+	text-shadow: none;
+	border-radius: 1px;
+	font-weight: 100;
+}
+
+.multSelectList .label-primary {
+	background: #adadad;
+	color: white;
+}
+
+.multSelectList .hint-input-span-container span i[data-role='remove'] {
+	cursor: pointer;
+	font-style: normal;
+	color: red;
+}
+
+.multSelectList .tag {
+	margin-right: 2px;
+	color: white;
+}
+
+.multSelectList .tag [data-role="remove"] {
+	margin-left: 2px;
+	cursor: pointer;
+}
+
+.multSelectList input[name='hint-search'] {
+	width: 100%;
+	font-size: 14px;
+	line-height: 1.6;
+	background-image: none;
+	border: 1px solid rgb(204, 204, 204);
+	border-radius: 1px;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	padding-left: 6px;
+}
+
+.multSelectList .hint-block {
+	box-sizing: border-box;
+	position: absolute;
+	left: 0px;
+	z-index: 1000;
+	display: block;
+	float: left;
+	padding: 5px 0px;
+	margin: 2px 0px 0px;
+	font-size: 14px;
+	text-align: left;
+	list-style: none;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	/* border: 1px solid rgba(0, 0, 0, 0.15); */
+	border: 1px solid #36B7E5;
+	border-radius: 1px;
+	position: absolute;
+	max-height: 120px;
+	background-color: #fff;
+	overflow: auto;
+	display: none;
+	z-index: 9999;
+}
+
+.multSelectList .hint-ul {
+	text-decoration: none;
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+.multSelectList .hint-ul li {
+	font-size: 14px;
+	padding: 2px 4px;
+}
+
+.multSelectList .hint-ul li:hover {
+	background-color: #51a2fd;
+}
+
+.multSelectList .hint-ul-search {
+	text-decoration: none;
+	list-style-type: none;
+	padding-left: 5px;
+	display: none;
+}
+
+.multSelectList .hint-ul-search li {
+	font-size: 14px;
+	padding: 2px 4px;
+}
+
+.multSelectList .hint-ul-search li:hover {
+	background-color: #dcdcdc;
+}
+
+.multSelectList .selected-span {
+	width: 97%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: flex;
+	align-items: center;
+	margin: 0;
+	height: 100%;
+	float: left;
+	font: inherit;
+}
+
+.multSelectList .selected-input {
+	margin: 0;
+	height: 100%;
+	width: 93%;
+	border: none;
+	background-color: white;
+	cursor: pointer;
+	background-color: white;
+	outline: none;
+	font: inherit;
+	background-color: rgba(0, 0, 0, 0);
+	filter: Alpha(opacity = 50); /* 只支持IE6、7、8、9 */
+	position: static;
+	/* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+	*zoom: 1;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.multSelectList  ul li {
+	border: 1px solid rgb(162, 151, 151);
+	margin-bottom: 2px;
+}
+
+.multSelectList .seleted-li {
+	background-color: red;
+}
+
+.multSelectList .glyphicon-ok:before {
+	content: "\e013";
+}
+
+.multSelectList {
+	margin: 0;
+	height: 100%;
+	font: inherit;
+}
+
+.multSelectList .hint-search-div {
+	padding: 4px 10px;
+	-webkit-box-sizing: border-box;
+	margin-right: 6px;
+}
+
+.multSelectList .downPic {
+	float: right !important;
+	width: 7%;
+	text-overflow: ellipsis;
+	display: flex;
+	align-items: center;
+	height: 100%;
+	float: left;
+	left: 3px;
+	/* font-size: 2px !important; */
+}
+
+.multSelectList .hint-input-span-container:hover {
+	background-color: #dcdcdc;
+	border: 1px solid #36B7E5;
+}
+
+.multSelectList .downIcon {
+	width: 7%;
+	height: 100%;
+	vertical-align: middle;
+	/* background: #FFF url("../img/ico-arrow-down.png") center center
+		no-repeat; */
+	cursor: pointer;
+	border-radius: 0 3px 3px 0;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.multSelectList .downselect:before {
+	content: "\25BC";
+	font-size: 8px !important;
+}
+/* .multSelectList .downselectie {
+	*zoom:expression(this.runtimeStype['zoom']='1',this..innerHTML='&#x25BC;')
+} */
+/* .downselect:after{
+	content:"\25B2"
+} */
